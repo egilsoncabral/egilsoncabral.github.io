@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+#game-over,
+#winner,
+#myCanvas {
+  text-align: center;
+  width: 100%;
+  position:fixed;
+  z-index: 1;
+  top: 0; 
+}
+
+#game-over,
+#winner {
+  margin-top: 55px;
+  padding-top: 50px;
+  z-index: 2;
+  display: none;
+}
+
+#game-over {
+  padding-top: 100px;
+}
