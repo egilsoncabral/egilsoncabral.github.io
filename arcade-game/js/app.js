@@ -194,7 +194,7 @@ function createEnemies(){
 /** Creates the player's lives */
 function createHearts(){
     for(i = 0; i < 3; i++){
-        allHearts.push(new Heart(enemySpawnLineX[i], 0, 'images/Heart.png'));
+        allHearts.push(new Heart(enemySpawnLineX[i], 0, 'images/heart.png'));
     } 
 }
 
